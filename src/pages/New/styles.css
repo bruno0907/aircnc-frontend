@@ -1,0 +1,40 @@
+label#thumbnail{
+    margin-bottom:20px;
+    border: dashed 1px #ddd;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label#thumbnail img {
+    width: 50px;
+}
+
+label#thumbnail input{
+    display: none;
+}
+
+label#thumbnail.has-thumbnail {
+    border: 0
+}
+
+label#thumbnail.has-thumbnail img {
+    display: none;    
+}
+
+form a{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+form a:hover{
+    opacity: .8;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000;
+}
